@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import "./App.css";
+import MovieTable from "./components/MovieTable";
 
 class App extends Component {
   render() {
     return (
       <main className="container">
-        <h1>Hello World!</h1>
+        <MovieTable></MovieTable>
       </main>
     );
   }
